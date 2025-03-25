@@ -1,5 +1,13 @@
 # Relatório: Aproximação de Funções com Redes Neurais
 
+## Membros
+* Cayque Cicarelli - 22.221.005-6
+
+* Bruna Paz - 22.121.020-6
+
+* Matheus Miranda - 22.22.0017-2
+
+
 ## Introdução
 
 Este relatório apresenta os resultados de um estudo sobre a capacidade de redes neurais artificiais em aproximar diferentes funções matemáticas. Utilizamos o framework scikit-learn para implementar e treinar Perceptrons Multicamadas (MLPs) com diferentes arquiteturas, avaliando seu desempenho na aproximação de funções de complexidade variada.
@@ -52,40 +60,34 @@ Para todas as redes, utilizamos os seguintes parâmetros:
 
 ## Resultados
 
-### Gráficos a Incluir no Relatório
-
+### Gráficos
 
 1. **Função Original**: Gráfico da função original que está sendo aproximada.
 
-2. **Erro Médio com Desvio Padrão**: Gráfico de barras mostrando o erro médio e o desvio padrão para cada arquitetura testada.
+![image](https://github.com/user-attachments/assets/8ebb5180-c29f-4385-bcde-a7f2198dec70)
 
-3. **Descrições das Arquiteturas**: Tabela ou texto descrevendo cada arquitetura e seus respectivos erros médios e desvios padrão.
 
-4. **Para cada arquitetura**:
-   - **Curva de Aprendizado**: Gráfico mostrando a evolução do erro durante o treinamento.
-   - **Aproximação da Função**: Gráfico comparando a função original (verde) com a função aproximada (azul).
-   - **Distribuição de Erros**: Histograma mostrando a distribuição dos erros nas 10 simulações realizadas.
+2. **Erro Médio com Desvio Padrão**: 
 
+![image](https://github.com/user-attachments/assets/3c8cccda-b178-43a4-9033-ec6d2df4dafe)
+
+
+3. **Curva de Aprendizado**: 
+
+![image](https://github.com/user-attachments/assets/48de3dda-3ecd-4b3e-a8b7-d02f7f8f13ba)
+
+
+4. **Aproximação da Função**:
+
+![image](https://github.com/user-attachments/assets/9a096135-c9d4-45e4-84c6-9e0f67dd72ed)
+
+   
 ### Análise dos Resultados
 
 Para cada conjunto de dados, analise:
 
-1. Qual arquitetura obteve o menor erro médio?
-2. Como o desvio padrão varia entre as diferentes arquiteturas?
-3. Existe uma relação clara entre a complexidade da arquitetura e a qualidade da aproximação?
-4. Como as curvas de aprendizado se comportam para cada arquitetura?
+* Qual arquitetura obteve o menor erro médio?
 
-## Conclusões
+Arquitetura 3 com um erro médio de 0.001016 e desvio padrão de 0.000686.
 
-Com base nos resultados obtidos, discuta:
 
-1. A capacidade das redes neurais em aproximar funções de diferentes complexidades.
-2. O impacto do número de camadas ocultas e neurônios no desempenho da aproximação.
-3. O trade-off entre complexidade da rede e qualidade da aproximação.
-4. Possíveis melhorias e trabalhos futuros.
-
-## Referências
-
-- Documentação do scikit-learn: [https://scikit-learn.org/stable/modules/neural_networks_supervised.html](https://scikit-learn.org/stable/modules/neural_networks_supervised.html)
-- Haykin, S. (2009). Neural networks and learning machines (3rd ed.). Pearson.
-- Bishop, C. M. (2006). Pattern recognition and machine learning. Springer.
